@@ -1,7 +1,7 @@
 # Optimize-Nginx-PHP-FPM
 Optimize Nginx + PHP-FPM for 5 million daily pageviews
 
-We run a few high-volume websites which together generate around 5 million page views per day.  Every page on this sample just uses PHP it was on a PHP page that doesn't have any database calls which makes me to configuretion NGINX, PHP-FPM .
+I  run a few high-volume websites which together generate around 5 million page views per day.  Every page on this sample just uses PHP it was on a PHP page that doesn't have any database calls which makes me to configuretion NGINX, PHP-FPM .
 
 I have 3 NGINX servers running behind a load balancer.  database is separate on a cluster. I Optimize our configuration files for nginx and php-fpm as well as our current RAM usage and PHP-FPM status. 
 
